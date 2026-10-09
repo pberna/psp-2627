@@ -37,4 +37,12 @@ public class Contadores {
 			contador2--;
 		}
 	}
+	
+	public long contador1() {
+		return contador1;
+	}
+	
+	public long contador2() {
+		return contador2;
+	}
 }
