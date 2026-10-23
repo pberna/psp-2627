@@ -65,6 +65,7 @@ public class Reponedor extends Thread {
 		if(pipedReader != null) {
 			try {
 				pipedReader.close();
+				
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
